@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="msg">
+        <h1>Alles Blau!</h1>
+    </div>
+</body>
+<script>
+
+    function mensagem(name){
+        alert('hello' + name);
+    }
+
+    function entrada(callback){
+        var name = prompt("porfavor coloque seu nome");
+        callback(name);
+    }
+
+    entrada(mensagem)
+</script>
+</html>
